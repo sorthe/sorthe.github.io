@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 async function fetchProjects() {
-    const response = await fetch('projects');
+    const response = await fetch('/projects');
     const projectFiles = await response.json();
 
     const projectList = document.getElementById('projectList');
