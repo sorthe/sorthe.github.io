@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Scrollable Containers</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    .container {
+        width: 50%;
+        height: 100%;
+        overflow-y: auto;
+        float: left;
+    }
+    .content {
+        height: 2000px; /* Just for demonstration, adjust as needed */
+    }
+</style>
+</head>
+<body>
+    <div class="container" style="background-color: lightblue;">
+        <div class="content">
+            <!-- Content for the left container -->
+            <!-- You can put your content here -->
+        </div>
+    </div>
+    <div class="container" style="background-color: lightcoral;">
+        <div class="content">
+            <!-- Content for the right container -->
+            <!-- You can put your content here -->
+        </div>
+    </div>
+</body>
+</html>

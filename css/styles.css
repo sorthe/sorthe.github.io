@@ -1,0 +1,37 @@
+ body {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    overflow-y: auto;
+    float: left;
+}
+
+.content {
+    height: 2000px;
+    margin: 5%;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.4em;;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4em;
+}
+
+strong {
+    font-weight: 600 !important;
+}
