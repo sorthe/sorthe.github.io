@@ -30,7 +30,7 @@ body {
 }
 
 .content {
-    margin: 5%;
+    margin: 5% !important; 
 }
 
 #cont-left {
@@ -171,6 +171,13 @@ strong {
     margin-top: 20px;
     padding-left: 20px;
     vertical-align: middle;
+}
+
+#fuckthemall {
+    width: fit-content;
+    right: 36px;
+    bottom: 36px;
+    position: absolute;
 }
 
 
